@@ -324,6 +324,7 @@ section .container .me .iam p {
 }
 .template .container .big-box .box {
   padding: 2px;
+  max-width: 100%
 }
 .template .container .big-box .box a {
 }
