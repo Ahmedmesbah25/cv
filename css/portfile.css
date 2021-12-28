@@ -326,16 +326,13 @@ section .container .me .iam p {
 .template .container .big-box .box {
   padding: 2px;
   max-width: 100%;
-<<<<<<< HEAD
-=======
-  max-height: 100%;
->>>>>>> 4336403d489c01d311a7ce6b97c90bd4e5fe0523
 }
 .template .container .big-box .box a {
 }
 .template .container .big-box .box a img {
   max-width: 100%;
   transition: 0.5s;
+  height: 100%;
 }
 .template .container .big-box .box a img:hover {
   transform: rotate(1deg) scale(1.1);
