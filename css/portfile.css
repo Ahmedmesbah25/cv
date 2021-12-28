@@ -326,13 +326,15 @@ section .container .me .iam p {
 .template .container .big-box .box {
   padding: 2px;
   max-width: 100%;
-  /* max-height: 100%; */
+<<<<<<< HEAD
+=======
+  max-height: 100%;
+>>>>>>> 4336403d489c01d311a7ce6b97c90bd4e5fe0523
 }
 .template .container .big-box .box a {
 }
 .template .container .big-box .box a img {
   max-width: 100%;
-  height: 100%;
   transition: 0.5s;
 }
 .template .container .big-box .box a img:hover {
