@@ -37,7 +37,7 @@ let section =document.querySelector(".big-box ")
 let spans =document.querySelectorAll(".big-box .progress .progress-bar ")
 
 window.onscroll = function () {
-    if (window.scrollY >= section.offsetTop) {
+    if (window.scrollY >= section.offsetTop + 100) {
     //   console.log("Reached Section Three");
       spans.forEach((el) => {
         el.style.width = el.dataset.width;
